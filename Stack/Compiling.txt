@@ -1,0 +1,11 @@
+to Compile:
+
+Hello:
+   /C/Windows/Microsoft.NET/Framework/v4.0.30319/csc Hello.cs
+
+Acme:
+   /C/Windows/Microsoft.NET/Framework/v4.0.30319/csc /target:library acme.cs
+
+Test:
+   /C/Windows/Microsoft.NET/Framework/v4.0.30319/csc /reference:acme.dll Test.cs
+
