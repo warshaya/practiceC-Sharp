@@ -9,3 +9,7 @@ Acme:
 Test:
    /C/Windows/Microsoft.NET/Framework/v4.0.30319/csc /reference:acme.dll Test.cs
 
+to Run the .exe:
+   ./<ProgramName>
+   any referenced assemblies must be present.
+
